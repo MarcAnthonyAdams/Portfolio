@@ -46,25 +46,17 @@ footer {
 
 /* ------- Type ------- */
 
-h1, h2, h4 {
-  color: #031D44;
-  font-family: 'Bangers', cursive;
-  text-align: center;
-}
 h1 {
   margin-top: 0;
   font-size: 36px;
   text-align: left;
  }
 h2 {
+  color: #031D44;
+  font-family: 'Bangers', cursive;
   font-size: 36;
   text-align: center; 
 }
-h4 { 
-  font-size: 24px;
-  text-align: left;
-  margin-bottom: 0;
-  }
 
 h3 {
   color: #EAE2B7;
@@ -159,6 +151,13 @@ hr {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #031D44;
   font-size: 36px;
+}
+
+.hi {
+  font-family: 'Bangers', cursive;
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
 }
 
 @font-face {
