@@ -40,6 +40,10 @@ section {
   padding: 30px 0 0 0;
 }
 
+footer {
+  background-color: #031D44;
+}
+
 /* ------- Type ------- */
 
 h1, h2, h4 {
@@ -112,6 +116,15 @@ a:active {
   background-position: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+footer h4 {
+  color: #CED4DA;
+  font-family: 'Montserrat', cursive;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px;
+  margin: 0;
 }
 
 /* ------- Elements ------- */
