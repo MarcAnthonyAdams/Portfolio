@@ -142,15 +142,18 @@ hr {
   margin-bottom: 20px;
 }
 
-.gold {
-  color: #EAE2B7;
-  background-image: url(images/backgrounds/tan-gradient.jpg);
-  height: 100px;
-  background-position: center;
+.metalic {
+  color: #031D44;
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+  background-size: cover;
+  width: 100px;
+  background-position: right;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #031D44;
   font-size: 36px;
+  padding-right: 0.4em;
+  margin-right: -0.4em;
 }
 
 .hi {
