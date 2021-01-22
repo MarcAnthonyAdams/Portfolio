@@ -1,7 +1,7 @@
 
 /*
   STYLE.CSS
-  The true hero of story.
+  The true hero of the story.
 
   selector ( property: value; }
 
@@ -25,6 +25,12 @@ section {
   padding: 0 30%;
   align-content: center;
   margin: 50px 0;
+}
+
+article {
+  padding: 0 30%;
+  align-content: center;
+  marging: 50px 0;
 }
 
 .logo {
@@ -51,6 +57,7 @@ h1 {
   font-size: 36px;
   text-align: left;
  }
+
 h2 {
   color: #031D44;
   font-family: 'Bangers', cursive;
@@ -151,7 +158,6 @@ hr {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px #031D44;
-  font-size: 36px;
   padding-right: 0.4em;
   margin-right: -0.4em;
 }
