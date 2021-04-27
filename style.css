@@ -526,8 +526,22 @@ span[data-spell]:hover::after {
     padding-bottom: 0;
   }
 
-  .projects h4 {
-    background-image: url(images/backgrounds/action-gradient.jpg);
+  .projects .blue h4 {
+    background-image: url(images/backgrounds/tan-gradient.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    Background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 0 10px 0 0;
+  }
+
+  .projects .gold h4 {
+    background-image: url(images/backgrounds/blue-gradient.jpg);
     background-position: center;
     background-repeat: no-repeat;
     Background-size: cover;
@@ -1143,8 +1157,22 @@ span[data-spell]:hover::after {
     color: #E7D8C9;
   }
 
-  .projects h4 {
-    background-image: url(images/backgrounds/action-gradient.jpg);
+  .projects .blue h4 {
+    background-image: url(images/backgrounds/tan-gradient.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    Background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 0 10px 0 0;
+  }
+
+  .projects .gold h4 {
+    background-image: url(images/backgrounds/blue-gradient.jpg);
     background-position: center;
     background-repeat: no-repeat;
     Background-size: cover;
