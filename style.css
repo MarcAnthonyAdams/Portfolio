@@ -2,28 +2,477 @@
 /*
   STYLE.CSS
   The true hero of the story.
-
-  selector ( property: value; }
-
 */
+
+
 
 
 
 /* >>>>>>>>>>>>>>>>>>> All <<<<<<<<<<<<<<<<<<< */
 
+
+  /* ------- Header ------- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #031D44;
+  width: 100%;
+}
+
+header h1 {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  color: #EAE2B7;
+  font-family: 'Power Lord', cursive;
+  padding: 0 50px 0 0;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 50px 0 0;
+}
+
+header nav ul li a {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  color: #EAE2B7;
+  font-family: 'Bangers', cursive;
+  list-style: none;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav ul li a:hover {
+  background-image: url(images/backgrounds/action-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  color: #EAE2B7;
+  font-family: 'Bangers', cursive;
+  list-style: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
   /* ------- Body ------- */
+
+.about {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  border: 10px solid black;
+  height: 100%;
+  width: 95%;
+}
 
 body {
   background: radial-gradient(white, #D3CCC0);
+}
+
+.badges-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bio {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
+
+.button {
+  Margin: 40px 0 0 0;
 }
 
 .change {
   cursor: pointer;
 }
 
+.constrimage {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  align-items: center;
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  border: 10px solid black;
+  color: #031D44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  align-items: center;
+  background: #031D44;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  padding: 20px;
+  text-align: left;   
+}
+
+.contact form button {
+  background-image: linear-gradient(to right, #A98561, #EADCCF, #A98561);
+  background-size: cover;
+  border: 3px solid #E7D8C9;
+  border-radius: 10px;
+  color: #031D44;
+  font-family: "Power Lord", cursive;
+  font-size: 20px;
+  height: 40px;
+  margin: 20px 0 20px 0;
+}
+
+.contact form div {
+  padding: 10px 10px 10px 15px;
+}
+
+.contact form h4 {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #EAE2B7;
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  margin: 10px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact form input {
+  background-color: #031D44;
+  border: 3px solid #E7D8C9;
+  border-radius: 10px;
+  color: #E7D8C9;
+  font-family: "Power Lord", cursive;
+  height: 40px;
+  padding: 0 0 0 10px;
+}
+
+.contact form label {
+  color: #E7D8C9;
+  font-family: "Permanent Marker", cursive;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.contact form textarea {
+  background-color: #031D44;
+  border: 3px solid #E7D8C9;
+  border-radius: 10px;
+  color: #E7D8C9;
+  font-family: "Permanent Marker", cursive;
+  font-size: 15px;
+  height: 250px;
+  padding: 10px 10px 10 20px;
+}
+
+.description {
+  align-items: center;
+  Display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.blue .description a {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #E7D8C9;
+  font-family: "Power Lord", cursive;
+  letter-spacing: 2px;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue .description a:hover {
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+}
+
+.gold .description a {
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #E7D8C9;
+  font-family: "Power Lord", cursive;
+  letter-spacing: 2px;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gold .description a:hover {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+}
+
+.hi {
+  color: #031D44;
+  font-family: 'Bangers', cursive;
+  text-align: left;
+}
+
+.hr {
+  justify-content: center;
+}
+
+.hr img {
+  height: 200px;
+  width: 111%;
+}
+
+.intro {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.intro p {
+  position: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.linkicons {
+  align-items: center;
+  border-bottom: 2px solid #031D44;
+  border-top: 2px solid #031D44;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 0 0 0;
+}
+
+main {
+  align-content: center;
+  margin: 0 10% 0 10%;
+}
+
+main .about a {
+  font-weight: 700;
+  text-decoration: none;
+}
+main .about a:link { color: #2D00F7; }  
+main .about a:visited { color: rgb(177, 9, 199); }
+main .about a:hover {
+  font-family: 'Power Lord SM';
+  font-size: 15px;
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-size: 40px;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #031D44; 
+}
+main .about a:active {
+  font-family: 'Power Lord SM';
+  font-size: 15px;
+  background-image: url(images/backgrounds/action-gradient.jpg);
+  background-size: 40px;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main h1 {
+  margin-top: 0;
+  text-align: left;
+}
+
+main h2 {
+  color: #031D44;
+  font-family: 'Bangers', cursive;
+  text-align: center; 
+}
+
+main p, li {
+  color: #031D44;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.metalic {
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+  background-position: right;
+  background-size: cover;
+  color: #031D44;
+  margin-right: -0.4em;
+  padding-right: 0.4em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #031D44;
+  width: 100px;
+}
+
+.picture {
+  background-image: url(images/backgrounds/action-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  border: 7px solid black;
+  padding: 50px 0 0 0;
+}
+
+.project {
+  align-items: center;
+  border: 10px solid black;
+  display: flex;
+  height: 700px;
+  justify-content: space-evenly;
+  Margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.project p {
+  font-family: 'Karla', 'Times New Roman';
+}
+
+.projects h4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  Background-size: cover;
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  margin: 10px;
+  padding: 0 10px 0 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black; 
+}
+.projects .blue h4 {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+}
+.projects .gold h4 {
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+}
+
+.projects h5 {
+  font-family: "Karla", cursive;
+}
+.projects .blue h5 {
+  color: #E7D8C9;
+}
+.projects .gold h5 {
+  color: #031D44;
+}
+
+.projects .blue p {
+  color: #E7D8C9;
+}
+
+.projects .one, .three, .five {
+  background-color: #031D44;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects .two, .four {
+  background-image: url(images/backgrounds/tan-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.skills {
+  background-image: url(images/backgrounds/blue-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px solid black;
+  Margin: 10px 0 10px 0;
+}
+
+.skillSet {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.story {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ------- Footer ------- */
+
+footer {
+  background-color: #031D44;
+  height: 80px;
+  width: 100%;
+}
+
+footer h3 {
+  color: #E7D8C9;
+  font-family: 'Montserrat', cursive;
+  font-size: 16px;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+
+/* ------- Under Construction Place Holder Site -------*/
+
 .ucphs {
   background: black;
+  height: 800px;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -400px;
+  position: absolute;
+  top: 50%;
+  width: 800px;
 }
+
+
+/* ------- Fonts ------- */
 
 @font-face {
   font-family: 'Action Men';
@@ -32,7 +481,7 @@ body {
 
 @font-face {
   font-family: 'Karla';
-  src: url(fonts/KARLA-REGULAR.TTF);
+  src: url(fonts/karla.ttf);
 }
 
 @font-face {
@@ -45,480 +494,251 @@ body {
   src: url(fonts/power-lord-sm.otf);
 }
 
-/*span[data-spell] {
-  display: inline-block;
-}
-
-span[data-spell]::before,
-span[data-spell]::after {
-  display: none;
-}
-
-span[data-spell]::before {
-  content: attr(data-spell);
-}
-
-span[data-spell]::after {
-  content: attr(data-original);
-}
-
-span[data-original]:not(:hover)::before,
-span[data-spell]:hover::after {
-  display: block;
-}*/
 
 
 
 
+/* >>>>>>>>>>>>>>>>>>> Extra Small Screens <<<<<<<<<<<<<<<<<<< */
 
-/* >>>>>>>>>>>>>>>>>>> Smart Phones <<<<<<<<<<<<<<<<<<< */
-
-@media all and (max-width: 700px) {
+@media all and (max-width: 394px) {
 
 
   /* ------- Header ------- */
 
-  .group {
-    display: flex;
-    flex-direction: column;
-  }
-
-  header {
-    height: 180px;
-    width: 410px;
-    background-color: #031D44;
-  }
-
   header h1 {
-    text-align: center;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Power Lord', cursive;
-    font-size: 36px;
+    font-size: 24px;
     margin: 25px 50px 0 75px;
-    padding: 0 50px 0 0;
-  }
-
-  header nav {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 20px;
   }
 
   header nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 50px 0 0;
-    margin: 40px 0 0 50px;
+    margin: 40px 0 0 40px;
   }
 
   header nav ul li a {
-    list-style: none;
-    font-family: 'Bangers', cursive;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
     padding: 0 20px 0 20px;
-    font-size: 18px;
+    font-size: 14px;
   }
 
-  header nav ul li a:hover {
-    list-style: none;
-    font-family: 'Bangers', cursive;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/action-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 18px;
-  }
 
-    
   /* ------- Main ------- */
 
-  .about {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    width: 100%;
-    height: 1550px;
-    border: 10px solid black;
-  }
-
   .about img {
-    width: 90%;
-  }
-
-  .badge {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100px; 
-    width: 0; 
-    margin-right: 20px;
-    margin-bottom: 20px;  
-  }
-
-  .badges-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .bio {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 50px 35px 50px 35px;
+    width: 98%;
   }
 
   .button {
-    Margin: 40px 0 0 0;
-  }
-
-  .constrimage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contact {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    border: 10px solid black;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #031D44;
-    margin-bottom: 20px;
+    font-size: 8px;
   }
 
   .contact form {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-    background: #031D44;
-    margin: 20px 0 20px 0;
-    text-align: left;
+    margin-left: 1%;
+    width: 80%;
+  }
+
+  .contact form {
+    width: 80%;
   }
 
   .contact form button {
-    background-color: #031D44;
-    color: #031D44;
-    background-image: linear-gradient(to right, #A98561, #EADCCF, #A98561);
-    background-size: cover;
-    height: 40px;
-    width: 240px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 0 0 0 0;
-    font-family: "Power Lord", cursive;
-    font-size: 20px;
-    margin: 20px 0 20px 0;
-  }
-
-  .contact form div {
-    padding: 10px 10px 10px 15px;
+    width: 100%;
   }
 
   .contact form h4 {
-    text-align: center;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
+    font-size: 2rem;
   }
 
   .contact form input {
-    background-color: #031D44;
-    color: #E7D8C9;
-    height: 40px;
-    width: 220px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 0 0 0 10px;
-    font-family: "Power Lord", cursive;
+    border-radius: 6px;
+    font-family: 'Karla';
     font-size: 10px;
+    height: 20px;
+    padding-left: 5px;
+    width: 88%;
   }
 
   .contact form label {
-    color: #E7D8C9;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    margin: 10px 10px 10px 10px;
-    font-family: "Permanent Marker", cursive;
-    font-size: 18px;
+    font-size: 12px;
+    margin-left: 0;
   }
 
   .contact form textarea {
-    background-color: #031D44;
-    color: #E7D8C9;
-    height: 250px;
-    width: 200px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 10px 10px 10px 20px;
-    font-family: "Permanent Marker", cursive;
-    font-size: 15px;
+    font-size: 12px;
+    padding-left: 5px;
+    width: 88%;
   }
 
   .description {
-    width: 250px;
-    Display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-left: 10%;
+    width: 80%;
   }
 
   .blue .description a {
-    color: #E7D8C9;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 0px 10px 0px 10px;
-    font-family: "Power Lord", cursive;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 16px; 
-  }
-
-  .blue .description a:hover {
-    color: #E7D8C9;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 0px 10px 0px 10px;
-    font-family: "Power Lord", cursive;
-    font-size: 16px;
+    font-size: 12px; 
+    padding: 0px 6px 0px 6px;
   }
 
   .gold .description a {
-    color: #031D44;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 0px 10px 0px 10px;
-    font-family: "Power Lord", cursive;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 16px; 
-  }
-
-  .gold .description a:hover {
-    color: #031D44;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 0px 10px 0px 10px;
-    font-family: "Power Lord", cursive;
-    font-size: 16px;
-  }
-
-  .hi {
-    color: #031D44;
-    font-family: 'Bangers', cursive;
-    font-size: 20px;
-    text-align: left;
-    margin: 0;
-  }
-
-  .hr {
-    justify-content: center;
-  }
-
-  .hr img {
-    width: 360px;
-    height: 100px;
-  }
-
-  .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 330px;
-    height: 500px;
-    margin: 0 50px 0 0;
-  }
-
-  .intro p {
-    position: center;
-    justify-content: center;
-    text-align: center;
+    font-size: 12px;
+    padding: 0px 6px 0px 6px; 
   }
 
   .linkicons {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border-top: 2px solid #031D44;
-    border-bottom: 2px solid #031D44;
     padding: 10px 0px 6px 12px;
-    margin: 20px 0 0 0
+    width: 90%;
   }
 
   .linkicons img {
     width: 75%;
   }
 
-  main {
-    padding: 0 10%;
-    align-content: center;
-  }
-
-  main .about a {
-    font-weight: 700;
-    text-decoration: none;
-  }
-  main .about a:link { color: #2D00F7; }  
-  main .about a:visited { color: rgb(177, 9, 199); }
-  main .about a:hover {
-    font-family: 'Power Lord SM';
-    font-size: 15px;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: 40px;
-    background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #031D44; 
-  }
-  main .about a:active {
-    font-family: 'Power Lord SM';
-    font-size: 15px;
-    background-image: url(images/backgrounds/action-gradient.jpg);
-    background-size: 40px;
-    background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   main h1 {
-    margin-top: 0;
-    font-size: 20px;
-    text-align: left;
-  }
-
-  main h2 {
-    color: #031D44;
-    font-family: 'Bangers', cursive;
-    font-size: 48;
-    text-align: center; 
-  }
-
-  main h3 {
-    color: #D90429;
-    font-family: 'Bangers', cursive;
-    font-size: 36;
-    text-align: center; 
-  }
-
-  main ol {
-    -moz-column-count: 2;
-    -moz-column-gap: 30px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 30px;
-    column-count: 2;
-    column-gap: 30px;
-  }
-
-  main p, li {
-    color: #031D44;
-    font-family: 'Permanent Marker', cursive;
-  }
-
-  .metalic {
-    color: #031D44;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-size: cover;
-    width: 100px;
-    background-position: right;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #031D44;
-    padding-right: 0.4em;
-    margin-right: -0.4em;
+    font-size: 16px;
   }
 
   .picture {
-    background-image: url(images/backgrounds/action-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    width: 200px;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .projects img {
+    width: 80%;
+    padding: 0px 0 0 25px; 
+  }
+
+  .skills img {
+    width: 80%;
+    margin: 20px 0 20px 0;
+  }
+
+  .skillSet {
+    padding: 5px 45px 5px 0;
+    width: 50%;
+  }
+
+  .story {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+}
+
+/* >>>>>>>>>>>>>>>>>>> Small Screens <<<<<<<<<<<<<<<<<<< */
+
+@media all and (min-width: 395px) and (max-width: 594px) {
+
+
+  /* ------- Header ------- */
+
+  header {
+    height: 180px;
+  }
+
+  header h1 {
+    font-size: 36px;
+    margin: 25px 50px 0 75px;
+  }
+
+  header nav ul {
+    margin: 40px 0 0 50px;
+  }
+
+  header nav ul li a {
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+  }
+
+  header nav ul li a:hover {
+    font-size: 18px;
+  }
+
+    
+  /* ------- Main ------- */
+
+  .about img {
+    width: 98%;
+  }
+
+  .bio {
+    padding: 50px 35px 50px 35px;
+  }
+
+  .contact {
+    width: 95%;
+  }
+
+  .contact form {
+    width: 250px;
+  }
+
+  .contact form button {
+    width: 240px;
+  }
+
+  .contact form input {
+    height: 40px;
+    width: 220px;
+  }
+
+  .contact form textarea {
+    width: 225px;
+  }
+
+  .description {
+    width: 250px;
+  }
+
+  .blue .description a {
+    font-size: 16px; 
+    padding: 0px 10px 0px 10px;
+  }
+
+  .gold .description a {
+    font-size: 16px;
+    padding: 0px 10px 0px 10px; 
+  }
+
+  .hi {
+    font-size: 20px;
+  }
+
+  .intro {
+    margin: 0 50px 0 0;
+    width: 330px;
+  }
+
+  .linkicons {
+    padding: 10px 0px 6px 12px;
+    width: 90%;
+  }
+
+  .linkicons img {
+    width: 75%;
+  }
+
+  main h1 {
+    font-size: 20px;
+  }
+
+  main h2 {
+    font-size: 48; 
+  }
+
+  main li {
+    font-size: 15px;
+  }
+
+  main p {
+    font-size: 15px;
+  }
+
+  .picture {
     height: 250px;
-    border: 7px solid black;
-    padding: 50px 0 0 0;
-  }
-
-  .project p {
-    font-family: 'Karla', 'Times New Roman';
-  }
-
-  .projects .button img {
-    width: 3%;
-  }
-  .projects .blue h5 {
-    color: #E7D8C9;
-    font-family: "Karla", cursive;
+    width: 200px;
   }
 
   .projects .blue p {
     margin-bottom: 0;
     padding-bottom: 0;
-    color: #E7D8C9;
   }
 
   .projects .gold p {
@@ -526,32 +746,8 @@ span[data-spell]:hover::after {
     padding-bottom: 0;
   }
 
-  .projects .blue h4 {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
-  }
-
-  .projects .gold h4 {
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
+  .projects {
+    width: 95%;
   }
 
   .projects img {
@@ -564,101 +760,9 @@ span[data-spell]:hover::after {
     padding: 0 30px 0 30px;
   }
 
-  .projects .one {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .projects .two {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
-    height: 700px;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .three {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .four {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
-    height: 700px;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .five {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .skill {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-    stroke: #031D44;
-    fill: #031D44;
-  }
-
   .skills {
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
     height: 210px;
-    Margin: 10px 0 10px 0;
+    width: 95%;
   }
 
   .skills img {
@@ -667,26 +771,21 @@ span[data-spell]:hover::after {
   }
 
   .skillSet {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     padding: 10px 40px 6px 0;
+    width: 50%;
   }
 
   .story {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
     height: 1000px;
     padding: 50px 0 0 0;
+    width: 250px;
   }
+  
 
   .ucphs img {
+    background: black;
     height: 400px;
-    left: 100%;
+    left: 85%;
     margin-top: -400px;
     margin-left: -400px;
     position: absolute;
@@ -694,22 +793,155 @@ span[data-spell]:hover::after {
     width: 400px;
   }
 
+}
 
-  /* ------- Footer ------- */
 
-  footer {
-    background-color: #031D44;
-    width: 410px;
-    height: 80px;
+
+
+/* >>>>>>>>>>>>>>>>>>> Medium Screens <<<<<<<<<<<<<<<<<<< */
+
+@media all and (min-width: 595px) and (max-width: 900px) {
+
+  /* ------- Header ------- */
+
+  header {
+    height: 200px;
   }
 
-  footer h3 {
-    color: #E7D8C9;
-    font-family: 'Montserrat', cursive;
-    text-align: center;
-    font-size: 16px;
-    padding: 30px;
-    margin: 0;
+  header h1 {
+    font-size: 36px;
+    margin: 50px;
+  }
+
+  header nav {
+    font-size: 20px;
+  }
+
+  header nav ul li a {
+    padding: 0 20px 0 20px;
+    font-size: 24px;
+  }
+
+  header nav ul li a:hover {
+    font-size: 24px;
+  }
+
+    
+  /* ------- Main ------- */
+
+  .about {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .about img {
+    margin: 0 0 0 15px;
+    width: 95%;
+  }
+
+  .bio {
+    padding: 70px 0 0 0;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact form {
+    width: 450px;
+  }
+
+  .contact form button {
+    width: 400px;
+  }
+
+  .contact form input {
+    font-size: 15px;
+    width: 400px;
+  }
+
+  .contact form textarea {
+    width: 405px;
+  }
+
+  .description {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .blue .description a {
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 0 15px 0 15px;
+  }
+
+  .gold .description a {
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+  }
+
+  .hi {
+    font-size: 24px;
+  }
+
+  .intro {
+    margin: 0 30% 0 30%;
+    width: 40%;
+  }
+
+  .linkicons {
+    padding: 10px 0px 6px 75px;
+    width: 55%;
+  }
+
+  .linkicons img {
+    width: 50%;
+  }
+
+  main h1 {
+    font-size: 30px;
+  }
+
+  main h2 {
+    font-size: 36px;
+  }
+
+  .picture {
+    height: 80%;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .project {
+    height: 100%;
+  }
+
+  .projects img {
+    width: 95%;
+  }
+
+  .projects .skillSet img {
+    width: 50%
+  }
+
+  .skills {
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills img {
+    width: 50%;
+    margin: 160px;
+  }
+
+  .skillSet {
+    padding: 10px 0px 6px 40px;
+    width: 55%;
+  }
+
+  .story {
+    width: 80%;
+    margin-top: 50px;
   }
 
 }
@@ -718,76 +950,181 @@ span[data-spell]:hover::after {
 
 
 
-/* >>>>>>>>>>>>>>>>>>> TABLETS, LAPTOPS and DESKTOPS <<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>> large Screens <<<<<<<<<<<<<<<<<<< */
 
-@media all and (min-width: 1000px) {
-
+@media all and (min-width: 901px) and (max-width: 1550px) {
 
   /* ------- Header ------- */
 
-  .group {
-    display: flex;
-    flex-direction: column;
-  }
-
   header {
     height: 250px;
-    background-color: #031D44;
   }
 
   header h1 {
-    text-align: center;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Power Lord', cursive;
     font-size: 60px;
     margin: 50px;
-    padding: 0 50px 0 0;
   }
 
   header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     font-size: 20px;
   }
 
-  header nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0 50px 0 0;
-  }
-
   header nav ul li a {
-    font-family: 'Bangers', cursive;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-    padding: 0 100px 0 100px;
+    padding: 0 50px 0 50px;
     font-size: 36px;
   }
 
   header nav ul li a:hover {
-    font-family: 'Bangers', cursive;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/Action-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+  }
+
+    
+  /* ------- Main ------- */
+
+  .about {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about img {
+    margin: 0 0 0 15px;
+    width: 90%;
+  }
+
+  .bio {
+    padding: 70px 0 0 0;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact form {
+    width: 450px;
+  }
+
+  .contact form button {
+    width: 400px;
+  }
+
+  .contact form input {
+    font-size: 15px;
+    width: 400px;
+  }
+
+  .contact form textarea {
+    width: 405px;
+  }
+
+  .description {
+    margin: 40px 0 40px 0;
+    width: 300px;
+  }
+
+  .blue .description a {
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+  }
+
+  .gold .description a {
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+  }
+
+  .hi {
+    font-size: 24px;
+  }
+
+  .intro {
+    margin: 0 30% 0 30%;
+    width: 40%;
+  }
+
+  .linkicons {
+    padding: 10px 0px 6px 75px;
+    width: 55%;
+  }
+
+  .linkicons img {
+    width: 50%;
+  }
+
+  main h1 {
+    font-size: 36px;
+  }
+
+  main h2 {
+    font-size: 48px;
+  }
+
+  .picture {
+    height: 80%;
+    width: 35%;
+    justify-content: center;
+  }
+
+  .project {
+    height: 100%;
+  }
+
+  .projects img {
+    margin: 40px 0 40px 0;
+    width: 75;
+  }
+
+  .projects .skillSet img {
+    width: 50%
+  }
+
+  .skills {
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills img {
+    width: 50%;
+    margin: 160px;
+  }
+
+  .skillSet {
+    padding: 10px 0px 6px 40px;
+    width: 55%;
+  }
+
+  .story {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>> Extra Large Screens <<<<<<<<<<<<<<<<<<< */
+
+@media all and (min-width: 1550px) {
+
+
+  /* ------- Header ------- */
+
+  header {
+    height: 250px;
+  }
+
+  header h1 {
+    font-size: 60px;
+    margin: 50px;
+  }
+
+  header nav {
+    font-size: 20px;
+  }
+
+  header nav ul li a {
+    font-size: 36px;
+    padding: 0 100px 0 100px;
+  }
+
+  header nav ul li a:hover {
     font-size: 36px;
   }
 
@@ -795,394 +1132,85 @@ span[data-spell]:hover::after {
   /* ------- Main ------- */
 
   .about {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    width: 100%;
     height: 850px;
-    border: 10px solid black;
+    width: 100%;
   }
 
   .about img {
-    width: 90%;
-  }
-
-  .badge {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100px; 
-    width: 0; 
-    margin-right: 20px;
-    margin-bottom: 20px;  
-  }
-
-  .badges-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 0 0 0 15px;
+    width: 95%;
   }
 
   .bio {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
     padding: 70px 0 0 0;
   }
 
-  .button {
-    Margin: 40px 0 0 0;
-  }
-
-  .constrimage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
   .contact {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    border: 10px solid black;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #031D44;
-    margin-bottom: 20px;
   }
 
   .contact form {
     width: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-    background: #031D44;
-    margin: 20px 0 20px 0;
-    text-align: left;
   }
 
   .contact form button {
-    background-color: #031D44;
-    color: #031D44;
-    background-image: linear-gradient(to right, #A98561, #EADCCF, #A98561);
-    background-size: cover;
-    height: 40px;
     width: 400px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 0 0 0 0;
-    font-family: "Power Lord", cursive;
-    font-size: 20px;
-  }
-
-  .contact form div {
-    padding: 10px 10px 10px 15px;
-  }
-
-  .contact form h4 {
-    text-align: center;
-    color: #EAE2B7;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
   }
 
   .contact form input {
-    background-color: #031D44;
-    color: #E7D8C9;
-    height: 40px;
-    width: 400px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 0 0 0 10px;
-    font-family: "Power Lord", cursive;
     font-size: 15px;
-  }
-
-  .contact form label {
-    color: #E7D8C9;
-    margin: 10px 10px 10px 10px;
-    font-family: "Permanent Marker", cursive;
-    font-size: 18px;
+    width: 400px;
   }
 
   .contact form textarea {
-    background-color: #031D44;
-    color: #E7D8C9;
-    height: 200px;
-    width: 380px;
-    border: 3px solid #E7D8C9;
-    border-radius: 10px;
-    padding: 10px 10px 10px 20px;
-    font-family: "Permanent Marker", cursive;
-    font-size: 15px;
+    width: 405px;
   }
 
   .description {
     width: 600px;
-    Display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
   }
 
   .blue .description a {
-    color: #E7D8C9;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 40px 25px 10px 25px;
-    font-family: "Power Lord", cursive;
-    letter-spacing: 2px;
-    text-decoration: none;
     font-size: 24px;
     margin: 50px 50px 0 20px;
-  }
-
-  .blue .description a:hover {
-    color: #E7D8C9;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 40px 25px 10px 25px;
-    font-family: "Power Lord", cursive;
-    font-size: 24px;
-    margin: 50px 50px 0 20px;
   }
-
+ 
   .gold .description a {
-    color: #031D44;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 40px 25px 10px 25px;
-    font-family: "Power Lord", cursive;
-    letter-spacing: 2px;
-    text-decoration: none;
     font-size: 24px;
     margin: 50px 50px 0 20px;
-  }
-
-  .gold .description a:hover {
-    color: #031D44;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 40px 25px 10px 25px;
-    font-family: "Power Lord", cursive;
-    font-size: 24px;
-    margin: 50px 50px 0 20px;
   }
 
   .hi {
-    color: #031D44;
-    font-family: 'Bangers', cursive;
     font-size: 24px;
-    text-align: left;
-    margin: 0;
-  }
-
-  .hr {
-    justify-content: center;
-  }
-
-  .hr img {
-    width: 1650px;
-    height: 100px;
   }
 
   .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 500px;
-    height: 500px;
     margin: 0 25% 0 30%;
-  }
-
-  .intro p {
-    position: center;
-    justify-content: center;
-    text-align: right;
+    width: 500px;
   }
 
   .linkicons {
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border-top: 2px solid #031D44;
-    border-bottom: 2px solid #031D44;
     padding: 10px 0px 6px 75px;
-    margin: 20px 0 0 0;
+    width: 55%;
   }
 
   .linkicons img {
     width: 50%;
   }
 
-  main {
-    padding: 0 10%;
-    align-content: center;
-    background: radial-gradient(white, #D3CCC0);
-  }
-
-  main .about a {
-    font-weight: 700;
-    text-decoration: none;
-  }
-  main .about a:link { color: #2D00F7; }  
-  main .about a:visited { color: rgb(177, 9, 199); }
-  main .about a:hover {
-    font-family: 'Power Lord SM';
-    font-size: 15px;
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: 40px;
-    background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #031D44; 
-  }
-  main .about a:active {
-    font-family: 'Power Lord SM';
-    font-size: 15px;
-    background-image: url(images/backgrounds/action-gradient.jpg);
-    background-size: 40px;
-    background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   main h1 {
-    margin-top: 0;
     font-size: 36px;
-    text-align: left;
   }
 
   main h2 {
-    color: #031D44;
-    font-family: 'Bangers', cursive;
     font-size: 60px;
-    text-align: center; 
-  }
-
-  main h3 {
-    color: #D90429;
-    font-family: 'Bangers', cursive;
-    font-size: 36;
-    text-align: center; 
-  }
-
-  main ol {
-    -moz-column-count: 2;
-    -moz-column-gap: 30px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 30px;
-    column-count: 2;
-    column-gap: 30px;
-  }
-
-  main p, li {
-    color: #031D44;
-    font-family: 'Permanent Marker', cursive;
-  }
-
-  .metalic {
-    color: #031D44;
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-size: cover;
-    width: 100px;
-    background-position: right;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #031D44;
-    padding-right: 0.4em;
-    margin-right: -0.4em;
   }
 
   .picture {
-    background-image: url(images/backgrounds/action-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    width: 500px;
     height: 650px;
-    border: 7px solid black;
-    padding: 50px 0 0 0;
-  }
-
-  .project p {
-    font-family: 'Karla', 'Times New Roman';
-  }
-
-  .projects .blue h5 {
-    color: #E7D8C9;
-    font-family: "Karla", cursive;
-  }
-
-  .projects .blue p { 
-    color: #E7D8C9;
-  }
-
-  .projects .blue h4 {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
-  }
-
-  .projects .gold h4 {
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    Background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-    font-family: 'Bangers', cursive;
-    font-size: 3rem;
-    margin: 10px;
-    padding: 0 10px 0 0;
+    width: 500px;
   }
 
   .projects img {
@@ -1193,101 +1221,9 @@ span[data-spell]:hover::after {
     width: 50%
   }
 
-  .projects .one {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .two {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
-    height: 700px;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .three {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .four {
-    background-image: url(images/backgrounds/tan-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
-    height: 700px;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .projects .five {
-    background-color: #031D44;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    border: 10px solid black;
-    Margin: 10px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .skill {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-    stroke: #031D44;
-    fill: #031D44;
-  }
-
   .skills {
-    background-image: url(images/backgrounds/blue-gradient.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 10px solid black;
-    width: 100%;
     height: 700px;
-    Margin: 10px 0 10px 0;
+    width: 100%;
   }
 
   .skills img {
@@ -1296,46 +1232,13 @@ span[data-spell]:hover::after {
   }
 
   .skillSet {
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding: 10px 0px 6px 40px;
+    width: 55%;
   }
 
   .story {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 600px;
     height: 700px;
-  }
-
-  .ucphs img {
-    height: 800px;
-    left: 50%;
-    margin-top: -400px;
-    margin-left: -400px;
-    position: absolute;
-    top: 50%;
-    width: 800px;
-  }
-
-
-  /* ------- Footer ------- */
-
-  footer {
-    background-color: #031D44;
-  }
-
-  footer h3 {
-    color: #E7D8C9;
-    font-family: 'Montserrat', cursive;
-    text-align: center;
-    font-size: 16px;
-    padding: 30px;
-    margin: 0;
   }
 
 }
