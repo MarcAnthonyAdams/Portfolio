@@ -216,16 +216,12 @@ body {
 }
 
 .blue .description a {
-  background-image: url(images/backgrounds/tan-gradient.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   color: #E7D8C9;
   font-family: "Power Lord", cursive;
   letter-spacing: 2px;
   text-decoration: none;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
 }
 .blue .description a:hover {
   color: red;
@@ -363,32 +359,28 @@ main p, li {
   font-family: 'Karla', 'Times New Roman';
 }
 
-.projects h4 {
+.projects h2 {
   font-family: 'Bangers', cursive;
   font-size: 3rem;
   letter-spacing: 2px;
   margin: 10px;
   padding: 0 10px 0 0;
 }
-.projects .blue h4 {
-  background-image: url(images/backgrounds/tan-gradient.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  Background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.projects .blue h2 {
+  color: red;
 }
-.projects .gold h4 {
+
+.projects .gold h2 {
   color: #031D44;
 }
 
-.projects h5 {
+.projects h3 {
   font-family: "Karla", cursive;
 }
-.projects .blue h5 {
+.projects .blue h3 {
   color: #E7D8C9;
 }
-.projects .gold h5 {
+.projects .gold h3 {
   color: #031D44;
 }
 
