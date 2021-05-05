@@ -89,10 +89,6 @@ header nav ul li a:hover {
   width: 95%;
 }
 
-body {
-  background: radial-gradient(white, #D3CCC0);
-}
-
 .badges-list {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +101,15 @@ body {
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
+}
+
+body {
+  background: radial-gradient(white, #D3CCC0);
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
 }
 
 .button {
@@ -260,9 +265,18 @@ body {
   height: 500px;
 }
 
-.intro p {
-  position: center;
+.intro h2 {
+  color: #031D44;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
   justify-content: center;
+  position: center;
+  text-align: center;
+}
+
+.intro p {
+  justify-content: center;
+  position: center;
   text-align: center;
 }
 
@@ -412,6 +426,14 @@ main p, li {
   Margin: 10px 0 10px 0;
 }
 
+.skills h2 {
+  color: #F77F00;
+  background-color: black;
+
+  font-family: "Karla", cursive;
+  font-size: 24px;
+}
+
 .skillSet {
   align-items: center;
   display: flex;
@@ -512,16 +534,20 @@ footer h3 {
     width: 98%;
   }
 
+  body {
+    width: 120%;
+  }
+
   .button {
     font-size: 8px;
   }
 
-  .contact form {
-    margin-left: 1%;
-    width: 80%;
+  .contact {
+    width: 95%;
   }
 
   .contact form {
+    margin-left: 2.75%;
     width: 80%;
   }
 
@@ -535,7 +561,7 @@ footer h3 {
 
   .contact form input {
     border-radius: 6px;
-    font-family: 'Karla';
+    font-family: 'Karla', cursive;
     font-size: 10px;
     height: 20px;
     padding-left: 5px;
@@ -577,8 +603,16 @@ footer h3 {
     width: 75%;
   }
 
+  main {
+    margin: 0 11.5% 0 8.5%;
+  }
+
   main h1 {
     font-size: 16px;
+  }
+
+  .metalic {
+    font-size: 20px;
   }
 
   .picture {
@@ -586,9 +620,17 @@ footer h3 {
     width: 80%;
   }
 
+  .projects {
+    width: 95%;
+  }
+
   .projects img {
     width: 80%;
     padding: 0px 0 0 25px; 
+  }
+
+  .skills h2 {
+    font-size: 16px;
   }
 
   .skills img {
@@ -625,7 +667,7 @@ footer h3 {
   }
 
   header nav ul {
-    margin: 40px 0 0 50px;
+    margin: 40px 20px 0 50px;
   }
 
   header nav ul li a {
@@ -640,12 +682,20 @@ footer h3 {
     
   /* ------- Main ------- */
 
+  .about {
+    height: 1550px;
+  }
+
   .about img {
     width: 98%;
   }
 
   .bio {
     padding: 50px 35px 50px 35px;
+  }
+
+  body {
+    width: 105%;
   }
 
   .contact {
@@ -661,7 +711,11 @@ footer h3 {
   }
 
   .contact form input {
+    border-radius: 6px;
+    font-family: 'Karla', cursive;
+    font-size: 16px;
     height: 40px;
+    padding-left: 5px;
     width: 220px;
   }
 
@@ -701,6 +755,10 @@ footer h3 {
     width: 75%;
   }
 
+  main {
+    margin: 0 12.25% 0 7.75%;
+  }
+
   main h1 {
     font-size: 20px;
   }
@@ -715,6 +773,10 @@ footer h3 {
 
   main p {
     font-size: 15px;
+  }
+
+  .metalic {
+    font-size: 20px;
   }
 
   .picture {
@@ -753,7 +815,7 @@ footer h3 {
 
   .skills img {
     width: 75%;
-    margin: 45px 10px 0 10px;
+    margin: 10px 10px 0 10px;
   }
 
   .skillSet {
@@ -765,6 +827,10 @@ footer h3 {
     height: 1000px;
     padding: 50px 0 0 0;
     width: 250px;
+  }
+
+  .skills h2 {
+    font-size: 16px;
   }
   
 
@@ -816,7 +882,7 @@ footer h3 {
   /* ------- Main ------- */
 
   .about {
-    height: 1600px;
+    height: 1650px;
     width: 100%;
   }
 
@@ -916,7 +982,7 @@ footer h3 {
   }
 
   .skills img {
-    width: 50%;
+    width: 75%;
     margin: 160px;
   }
 
@@ -1068,7 +1134,7 @@ footer h3 {
   }
 
   .skills img {
-    width: 50%;
+    width: 75%;
     margin: 160px;
   }
 
@@ -1194,6 +1260,10 @@ footer h3 {
     font-size: 60px;
   }
 
+  .metalic {
+    font-size: 48px;
+  }
+
   .picture {
     height: 650px;
     width: 500px;
@@ -1223,8 +1293,9 @@ footer h3 {
   }
 
   .story {
-    width: 600px;
     height: 700px;
+    margin-top: -120px;
+    width: 600px;
   }
 
 }
